@@ -1,3 +1,3 @@
 import "jquery";
 import "bootstrap";
-import "bootstrap-css";
+import "bootstrap/css/bootstrap.min.css";
