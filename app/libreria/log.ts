@@ -1,8 +1,8 @@
 export class Log {
-    constructor(){
+    constructor() {
     }
 
-    log(mensaje: string){
+    log(mensaje: string) {
         console.log(mensaje);
     }
 }

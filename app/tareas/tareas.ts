@@ -8,18 +8,18 @@ let btnAdd = <HTMLButtonElement>document.getElementById("btnAdd");
 btnAdd.onclick = function () {
     addTarea();
     txtTarea.focus();
-}
+};
 
 let frmModal = document.getElementById("myModal");
 $("#a").modal();
 
 let txtTarea = document.getElementById("txtTarea") as HTMLInputElement;
 txtTarea.onkeypress = function (e: KeyboardEvent) {
-    if (e.keyCode == 13) {
+    if (e.keyCode === 13) {
         e.preventDefault();
         addTarea();
     }
-}
+};
 
 let cmbPrioridad = document.getElementById("cmbPrioridad") as HTMLOptionElement;
 cmbPrioridad.addEventListener("change", function () {

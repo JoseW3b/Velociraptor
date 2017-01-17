@@ -1,5 +1,5 @@
-export type ObjetoTarea  = {
+export type ObjetoTarea = {
     idA: number,
     nombre: string,
     prioridad: number
-}
+};
