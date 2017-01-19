@@ -10,8 +10,8 @@ btnAdd.onclick = function () {
     txtTarea.focus();
 };
 
-let frmModal = document.getElementById("myModal");
-$("#a").modal();
+// let frmModal = document.getElementById("myModal");
+// $("#a").modal();
 
 let txtTarea = document.getElementById("txtTarea") as HTMLInputElement;
 txtTarea.onkeypress = function (e: KeyboardEvent) {
